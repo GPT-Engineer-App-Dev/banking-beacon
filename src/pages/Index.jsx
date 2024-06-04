@@ -4,7 +4,7 @@ import { FaTwitter, FaFacebook, FaLinkedin } from "react-icons/fa";
 const Index = () => {
   return (
     <Container maxW="container.xl" p={0}>
-      <Flex as="header" bg="gray.900" color="white" p={4} justifyContent="space-between" alignItems="center">
+      <Flex as="header" bg="#003366" color="white" p={4} justifyContent="space-between" alignItems="center">
         <Heading as="h1" size="lg">Financial Times</Heading>
         <HStack spacing={4}>
           <Link href="#" color="white">Home</Link>
@@ -45,7 +45,7 @@ const Index = () => {
         </Box>
       </Flex>
 
-      <Flex as="footer" bg="gray.900" color="white" p={4} justifyContent="space-between" alignItems="center">
+      <Flex as="footer" bg="#003366" color="white" p={4} justifyContent="space-between" alignItems="center">
         <Text>&copy; 2023 Financial Times</Text>
         <HStack spacing={4}>
           <Link href="#" color="white"><FaTwitter /></Link>
